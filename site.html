@@ -1,89 +1,142 @@
-<HTML>
-    <HEAD>
-
-        <h1><font color="#ff0000" face="Garamond"><center><size=900>BEM VINDO GATUTO🐈<size=900></center></font> <br /><h1>
-    
-            <h1><font color="#ff0000" face="Garamond"><size=900></size><center>TECNOLOGIA HACKER MIAU MIAU<size=900></center></font><br>
-      <title>miau.miau🐈</title>
-      <link rel="icon" type=""image/x-icon" href="/images/favicon.ico">
-
-    </HEAD>
-
-    <body>
-        <center><img src="gt.jpg" height="500" width="900> alt="Foto do Google"></center>
-      
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    
-    <div class="redes-sociais">
-        <a href="https://www.facebook.com" target="_blank">Facebook</a>
-
-        <a href="https://twitter.com/login?lang=pt" target="_blank">Twitter</a>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-        <a href="https://www.instagram.com" target="_blank">Instagram</a>
-    </div>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Tabela</title>
-    <style>
-        body {
-    background-color: rgb(235, 235, 240);
-}
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 16px;
-            text-align: left;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-    </style>
+    <title>PetShop Miau Miau</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table>
-        <caption>Itens à venda no site</caption>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Preço</th>
-                
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>PACOTE DE STALKER BRONZE</td>
-                <td>R$ 5.000,00</td>
-                
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>PACOTE DE STALKER PRATA</td>
-                <td>R$ 25.000,00</td>
-                
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>PACOTE DE STALKER OURO</td>
-                <td>R$ 50.000,00</td>
-                
-            </tr>
-        </tbody>
-    </table>
+    <header>
+        <h1>PetShop Miau Miau</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produtos">
+    <h2>Produtos</h2>
+    <div class="produtos-lista">
+        <div class="produto">
+            <img src="racao-premium.jpg" alt="Ração Premium" class="produto-imagem">
+            <h3>Ração Premium</h3>
+            <p>Ração de alta qualidade para gatos, rica em nutrientes.</p>
+            <p class="preco">R$ 99,90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="arranhador.jpg" alt="Arranhador" class="produto-imagem">
+            <h3>Arranhador</h3>
+            <p>Perfeito para manter as garras do seu gato saudáveis.</p>
+            <p class="preco">R$ 79,90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="brinquedo-interativo.jpg" alt="Brinquedo Interativo" class="produto-imagem">
+            <h3>Brinquedo Interativo</h3>
+            <p>Divirta seu gato com este brinquedo estimulante!</p>
+            <p class="preco">R$ 39,90</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+</section>
+
+<section id="servicos">
+    <h2>Serviços</h2>
+    <div class="servicos-lista">
+        <div class="servico">
+            <img src="banho-tosa.jpg" alt="Banho e Tosa" class="servico-imagem">
+            <h3>Banho e Tosa</h3>
+            <p>Cuide da higiene do seu gato com nosso serviço especializado.</p>
+        </div>
+        <div class="servico">
+            <img src="consultoria-nutricional.jpg" alt="Consultoria Nutricional" class="servico-imagem">
+            <h3>Consultoria Nutricional</h3>
+            <p>Dicas personalizadas para a alimentação do seu felino.</p>
+        </div>
+        <div class="servico">
+            <img src="adestramento.jpg" alt="Adestramento" class="servico-imagem">
+            <h3>Adestramento</h3>
+            <p>Ajude seu gato a aprender comportamentos positivos.</p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="blog">
+    <h2>Blog</h2>
+    <div class="blog-lista">
+        <article class="post">
+            <img src="dicas-cuidados.jpg" alt="Dicas de Cuidados" class="post-imagem">
+            <h3>Dicas de Cuidados com Gatos</h3>
+            <p>Descubra como cuidar melhor do seu amigo felino e garantir que ele seja feliz e saudável.</p>
+            <a href="#" class="leia-mais">Leia Mais</a>
+        </article>
+        <article class="post">
+            <img src="brincadeiras.jpg" alt="Brincadeiras para Gatos" class="post-imagem">
+            <h3>Brincadeiras para Entreter Seu Felino</h3>
+            <p>Confira algumas brincadeiras que vão estimular a mente e o corpo do seu gato.</p>
+            <a href="#" class="leia-mais">Leia Mais</a>
+        </article>
+        <article class="post">
+            <img src="saude-bem-estar.jpg" alt="Saúde e Bem-Estar" class="post-imagem">
+            <h3>Saúde e Bem-Estar do Seu Gato</h3>
+            <p>Aprenda sobre as melhores práticas para manter seu gato saudável e feliz.</p>
+            <a href="#" class="leia-mais">Leia Mais</a>
+        </article>
+    </div>
+</section>
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <div class="redes-sociais">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook-icon.jpg" alt="Facebook" class="icone-rede">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="instagram-icon.jpg" alt="Instagram" class="icone-rede">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="twitter-icon.jpg" alt="Twitter" class="icone-rede">
+        </a>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 PetShop Miau Miau. Todos os direitos reservados.</p>
+  
+<div class="redes-sociais">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook-icon.jpg" alt="Facebook" class="icone-rede">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="instagram-icon.jpg" alt="Instagram" class="icone-rede">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="twitter-icon.jpg" alt="Twitter" class="icone-rede">
+        </a>
+    </div>
+</footer>
 </body>
 </html>
