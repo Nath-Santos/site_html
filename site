@@ -1,15 +1,16 @@
-
 <HTML>
     <HEAD>
-        <h1><font face="Garamond"><center><size=100>BEM VINDO GATUTO🐈<size=100></center></font> <br /><h1>
-        <h1><font color="#ff0000" face="Garamond"><size=200></size><center>MIAU MIAU<size=200></center></font><br>
+
+        <h1><font color="#ff0000" face="Garamond"><center><size=900>BEM VINDO GATUTO🐈<size=900></center></font> <br /><h1>
+    
+            <h1><font color="#ff0000" face="Garamond"><size=900></size><center>TECNOLOGIA HACKER MIAU MIAU<size=900></center></font><br>
       <title>miau.miau🐈</title>
       <link rel="icon" type=""image/x-icon" href="/images/favicon.ico">
 
     </HEAD>
 
     <body>
-        <center><img src="178843699.png" height="500" width="500> alt="Foto do Google"></center>
+        <center><img src="gt.jpg" height="500" width="900> alt="Foto do Google"></center>
       
         <!DOCTYPE html>
 <html lang="pt-BR">
@@ -18,6 +19,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Tabela</title>
     <style>
+        body {
+    background-color: rgb(235, 235, 240);
+}
         table {
             width: 100%;
             border-collapse: collapse;
@@ -48,35 +52,30 @@
                 <th>ID</th>
                 <th>Nome</th>
                 <th>Preço</th>
-                <th>Quantidade</th>
+                
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Produto A</td>
-                <td>R$ 10,00</td>
-                <td>20</td>
+                <td>PACOTE DE STALKER BRONZE</td>
+                <td>R$ 5.000,00</td>
+                
             </tr>
             <tr>
                 <td>2</td>
-                <td>Produto B</td>
-                <td>R$ 15,00</td>
-                <td>30</td>
+                <td>PACOTE DE STALKER PRATA</td>
+                <td>R$ 25.000,00</td>
+                
             </tr>
             <tr>
                 <td>3</td>
-                <td>Produto C</td>
-                <td>R$ 20,00</td>
-                <td>10</td>
+                <td>PACOTE DE STALKER OURO</td>
+                <td>R$ 50.000,00</td>
+                
             </tr>
         </tbody>
     </table>
 </body>
 </html>
 
-          
-    </body>
-               
-    
-  </HTML>
